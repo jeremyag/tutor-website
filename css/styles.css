@@ -62,7 +62,6 @@ img {
 }
 
 .navbar {
-	background: black;
 	color: white;
 	padding: 1rem 2rem;
 	position: fixed;
@@ -71,6 +70,11 @@ img {
 	left: 0;
 	z-index: 1000;
 	transition: background-color 0.3s ease-in-out;
+}
+
+.navbar.navbar-scroll {
+	background-color: rgba(255, 77, 85, 0.7);
+	backdrop-filter: blur(10px);
 }
 
 .navbar-flex {
